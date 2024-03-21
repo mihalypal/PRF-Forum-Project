@@ -6,7 +6,6 @@ import expressSession from 'express-session';
 import passport from 'passport';
 import { configurePassport } from './passport/passport';
 import mongoose from 'mongoose';
-import bcrypt from 'bcrypt';
 
 const app = express();
 const port = 3000;
